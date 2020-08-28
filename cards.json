@@ -2,74 +2,74 @@
     {
         "id": 1,
         "image": [
-            "https://pbs.twimg.com/profile_images/486929358120964097/gNLINY67_400x400.png",
-            "./images/abe2.png",
-            "./images/abe3.png",
-            "./images/abe4.png"
+            "https://github.com/mattkrebs2000/ReactNativePractice/blob/master/images/abe1.png?raw=true",
+            "https://github.com/mattkrebs2000/ReactNativePractice/blob/master/images/abe2.png?raw=true",
+            "https://github.com/mattkrebs2000/ReactNativePractice/blob/master/images/abe3.png?raw=true",
+            "https://github.com/mattkrebs2000/ReactNativePractice/blob/master/images/abe4.png?raw=true"
         ],
         "name": "bill"
     },
     {
         "id": 2,
         "image": [
-            "./images/ali1.png",
-            "./images/ali2.png",
-            "./images/ali3.png",
-            "./images/ali4.png"
+            "https://github.com/mattkrebs2000/ReactNativePractice/blob/master/images/ali1.png?raw=true",
+            "https://github.com/mattkrebs2000/ReactNativePractice/blob/master/images/ali2.png?raw=true",
+            "https://github.com/mattkrebs2000/ReactNativePractice/blob/master/images/ali3.png?raw=true",
+            "https://github.com/mattkrebs2000/ReactNativePractice/blob/master/images/ali4.png?raw=true"
         ]
     },
     {
         "id": 3,
         "image": [
-            "./images/babe1.png",
-            "./images/babe2.png",
-            "./images/babe3.png",
-            "./images/babe4.png"
+            "https://github.com/mattkrebs2000/ReactNativePractice/blob/master/images/babe1.png?raw=true",
+            "https://github.com/mattkrebs2000/ReactNativePractice/blob/master/images/babe2.png?raw=true",
+            "https://github.com/mattkrebs2000/ReactNativePractice/blob/master/images/babe3.png?raw=true",
+            "https://github.com/mattkrebs2000/ReactNativePractice/blob/master/images/babe4.png?raw=true"
         ]
     },
     {
         "id": 4,
         "image": [
-            "./images/einstein1.png",
-            "./images/einstein2.png",
-            "./images/einstein3.png",
-            "./images/einstein4.png"
+            "https://github.com/mattkrebs2000/ReactNativePractice/blob/master/images/einstein1.png?raw=true",
+            "https://github.com/mattkrebs2000/ReactNativePractice/blob/master/images/einstein2.png?raw=true",
+            "https://github.com/mattkrebs2000/ReactNativePractice/blob/master/images/einstein3.png?raw=true",
+            "https://github.com/mattkrebs2000/ReactNativePractice/blob/master/images/einstein4.png?raw=true"
         ]
     },
     {
         "id": 5,
         "image": [
-            "./images/elvis1.png",
-            "./images/elvis2.png",
-            "./images/elvis3.png",
-            "./images/elvis4.png"
+            "https://github.com/mattkrebs2000/ReactNativePractice/blob/master/images/elvis1.png?raw=true",
+            "https://github.com/mattkrebs2000/ReactNativePractice/blob/master/images/elvis2.png?raw=true",
+            "https://github.com/mattkrebs2000/ReactNativePractice/blob/master/images/elvis3.png?raw=true",
+            "https://github.com/mattkrebs2000/ReactNativePractice/blob/master/images/elvis4.png?raw=true"
         ]
     },
     {
         "id": 6,
         "image": [
-            "./images/lennon1.png",
-            "./images/lennon2.png",
-            "./images/lennon3.png",
-            "./images/lennon4.png"
+            "https://github.com/mattkrebs2000/ReactNativePractice/blob/master/images/lennon2.png?raw=true",
+            "https://github.com/mattkrebs2000/ReactNativePractice/blob/master/images/lennon1.png?raw=true",
+            "https://github.com/mattkrebs2000/ReactNativePractice/blob/master/images/lennon3.png?raw=true",
+            "https://github.com/mattkrebs2000/ReactNativePractice/blob/master/images/lennon4.png?raw=true"
         ]
     },
     {
         "id": 7,
         "image": [
-            "./images/marilyn1.png",
-            "./images/marilyn2.png",
-            "./images/marilyn3.png",
-            "./images/marilyn4.png"
+            "https://github.com/mattkrebs2000/ReactNativePractice/blob/master/images/marilyn1.png?raw=true",
+            "https://github.com/mattkrebs2000/ReactNativePractice/blob/master/images/marilyn2.png?raw=true",
+            "https://github.com/mattkrebs2000/ReactNativePractice/blob/master/images/marilyn3.png?raw=true",
+            "https://github.com/mattkrebs2000/ReactNativePractice/blob/master/images/marilyn4.png?raw=true"
         ]
     },
     {
         "id": 8,
         "image": [
-            "./images/mlk1.png",
-            "./images/mlk2.png",
-            "./images/mlk3.png",
-            "./images/mlk4.png"
+            "https://github.com/mattkrebs2000/ReactNativePractice/blob/master/images/mlk1.png?raw=true",
+            "https://github.com/mattkrebs2000/ReactNativePractice/blob/master/images/mlk2.png?raw=true",
+            "https://github.com/mattkrebs2000/ReactNativePractice/blob/master/images/mlk3.png?raw=true",
+            "https://github.com/mattkrebs2000/ReactNativePractice/blob/master/images/mlk4.png?raw=true"
         ]
     }
 ]
