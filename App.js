@@ -12,29 +12,39 @@ class App extends Component {
     clickedFacesIds: [],
     score: 0,
     goal: 8,
-    status: "",
     imagenumber: 0,
+    status: " ",
+    direction: " "
   };
 
-  shuffleScoreCard = (id) => {
+  shuffleScoreCard = (id, name) => {
     this.setState({
       imagenumber: this.state.imagenumber > 2 ? 0 : this.state.imagenumber + 1,
+      status: " " + name,
+     
     });
     let clickedFacesIds = this.state.clickedFacesIds;
     if (clickedFacesIds.includes(id)) {
       this.setState({
         clickedFacesIds: [],
         score: 0,
-        status: "Game Over! You lost. Click to play again!",
+        status: "Game Over! You clicked " + name + " twice.",                   
+        direction: "Click to play again!",
+       
       });
+
       return;
     } else {
       clickedFacesIds.push(id);
+      this.setState({direction:name})
+
       if (clickedFacesIds.length === 8) {
         this.setState({
           score: 8,
-          status: "You Won! Click to play again!",
+          status: "You Won!", 
           clickedFacesIds: [],
+          direction: "Click to play again!",
+          
         });
         console.log("You Win");
         return;
@@ -44,6 +54,7 @@ class App extends Component {
         clickedFacesIds,
         score: clickedFacesIds.length,
         status: " ",
+       
       });
 
       for (let i = Waces.length - 1; i > 0; i--) {
@@ -63,17 +74,21 @@ class App extends Component {
     return (
       <View style={styles.container}>
         <Header />
-        <Text> Simple Text</Text>
-        <Score total={this.state.score} goal={8} status={this.state.status} />
+         <Score
+          total={this.state.score}
+          goal={8}
+          status={this.state.status}
+          direction= {this.state.direction}
+        />
         <Wrapper>
           {this.state.Waces.map((face) => (
-            <Card
+            <Card 
               shuffleScoreCard={this.shuffleScoreCard}
               id={face.id}
               key={face.id}
-              name={face.name}
               image={face.image[this.state.imagenumber]}
-            />
+              name={face.name}
+            /> 
           ))}
         </Wrapper>
       </View>
@@ -86,8 +101,8 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: "#fff",
     alignItems: "center",
+    justifyContent: "center",
   },
 });
 
-
-export default App; 
+export default App;
