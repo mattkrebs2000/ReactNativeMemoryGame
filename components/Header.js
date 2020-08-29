@@ -10,8 +10,9 @@ class Header extends Component {
           Try not to click on the same famous person twice!
         </Text>
       </View>
-    );};
-};
+    );
+  }
+}
 
 export default Header;
 

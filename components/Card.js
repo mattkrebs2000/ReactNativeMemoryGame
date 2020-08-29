@@ -1,5 +1,5 @@
 import React from "react";
-import {StyleSheet, View, Image} from "react-native";
+import { StyleSheet, View, Image } from "react-native";
 
 const Card = (jill) => (
   <View style={styles.card}>
@@ -10,7 +10,6 @@ const Card = (jill) => (
       name={jill.name}
       onClick={() => jill.shuffleScoreCard(jill.id, jill.name)}
     />
-    
   </View>
 );
 
@@ -24,10 +23,5 @@ const styles = StyleSheet.create({
     minWidth: 140,
     minHeight: 140,
     resizeMode: "contain",
-  },
-
-  image: {
-    // height: hp("20%"),
-    // width: hp("20%"),
   },
 });

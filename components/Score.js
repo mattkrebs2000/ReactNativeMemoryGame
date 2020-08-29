@@ -1,5 +1,5 @@
 import React from "react";
-import {View, Text, StyleSheet} from "react-native";
+import { View, Text, StyleSheet } from "react-native";
 
 const Score = (props) => (
   <View>
@@ -16,10 +16,10 @@ export default Score;
 
 const styles = StyleSheet.create({
   score: {
-    justifyContent: "center"
+    justifyContent: "center",
   },
   score2: {
- justifyContent: "center",
- alignItems:"center"
-  }
-})
+    justifyContent: "center",
+    alignItems: "center",
+  },
+});

@@ -14,6 +14,5 @@ const styles = StyleSheet.create({
     overflow: "scroll",
     width: "100%",
     maxWidth: 700,
-   
   },
 });
