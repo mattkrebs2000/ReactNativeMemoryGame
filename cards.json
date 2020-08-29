@@ -1,82 +1,82 @@
 [
-    {
-        "id": 1,
-        "image": [
-            "https://github.com/mattkrebs2000/ReactNativePractice/blob/master/images/abe1.png?raw=true",
-            "https://github.com/mattkrebs2000/ReactNativePractice/blob/master/images/abe2.png?raw=true",
-            "https://github.com/mattkrebs2000/ReactNativePractice/blob/master/images/abe3.png?raw=true",
-            "https://github.com/mattkrebs2000/ReactNativePractice/blob/master/images/abe4.png?raw=true"
-        ],
-        "name": "Abraham Lincoln"
-    },
-    {
-        "id": 2,
-        "image": [
-            "https://github.com/mattkrebs2000/ReactNativePractice/blob/master/images/ali1.png?raw=true",
-            "https://github.com/mattkrebs2000/ReactNativePractice/blob/master/images/ali2.png?raw=true",
-            "https://github.com/mattkrebs2000/ReactNativePractice/blob/master/images/ali3.png?raw=true",
-            "https://github.com/mattkrebs2000/ReactNativePractice/blob/master/images/ali4.png?raw=true"
-        ],
-        "name": "Muhammad Ali"
-    },
-    {
-        "id": 3,
-        "image": [
-            "https://github.com/mattkrebs2000/ReactNativePractice/blob/master/images/babe1.png?raw=true",
-            "https://github.com/mattkrebs2000/ReactNativePractice/blob/master/images/babe2.png?raw=true",
-            "https://github.com/mattkrebs2000/ReactNativePractice/blob/master/images/babe3.png?raw=true",
-            "https://github.com/mattkrebs2000/ReactNativePractice/blob/master/images/babe4.png?raw=true"
-        ],
-        "name": "Babe Ruth"
-    },
-    {
-        "id": 4,
-        "image": [
-            "https://github.com/mattkrebs2000/ReactNativePractice/blob/master/images/einstein1.png?raw=true",
-            "https://github.com/mattkrebs2000/ReactNativePractice/blob/master/images/einstein2.png?raw=true",
-            "https://github.com/mattkrebs2000/ReactNativePractice/blob/master/images/einstein3.png?raw=true",
-            "https://github.com/mattkrebs2000/ReactNativePractice/blob/master/images/einstein4.png?raw=true"
-        ],
-        "name": "Albert Einstein"
-    },
-    {
-        "id": 5,
-        "image": [
-            "https://github.com/mattkrebs2000/ReactNativePractice/blob/master/images/elvis1.png?raw=true",
-            "https://github.com/mattkrebs2000/ReactNativePractice/blob/master/images/elvis2.png?raw=true",
-            "https://github.com/mattkrebs2000/ReactNativePractice/blob/master/images/elvis3.png?raw=true",
-            "https://github.com/mattkrebs2000/ReactNativePractice/blob/master/images/elvis4.png?raw=true"
-        ],
-        "name": "Elvis Presley"
-    },
-    {
-        "id": 6,
-        "image": [
-            "https://github.com/mattkrebs2000/ReactNativePractice/blob/master/images/lennon2.png?raw=true",
-            "https://github.com/mattkrebs2000/ReactNativePractice/blob/master/images/lennon1.png?raw=true",
-            "https://github.com/mattkrebs2000/ReactNativePractice/blob/master/images/lennon3.png?raw=true",
-            "https://github.com/mattkrebs2000/ReactNativePractice/blob/master/images/lennon4.png?raw=true"
-        ],
-        "name": "John Lennon"
-    },
-    {
-        "id": 7,
-        "image": [
-            "https://github.com/mattkrebs2000/ReactNativePractice/blob/master/images/marilyn1.png?raw=true",
-            "https://github.com/mattkrebs2000/ReactNativePractice/blob/master/images/marilyn2.png?raw=true",
-            "https://github.com/mattkrebs2000/ReactNativePractice/blob/master/images/marilyn3.png?raw=true",
-            "https://github.com/mattkrebs2000/ReactNativePractice/blob/master/images/marilyn4.png?raw=true"
-        ],
-        "name": "Marilyn Monroe"
-    },
-    {
-        "id": 8,
-        "image": [
-            "https://github.com/mattkrebs2000/ReactNativePractice/blob/master/images/mlk1.png?raw=true",
-            "https://github.com/mattkrebs2000/ReactNativePractice/blob/master/images/mlk2.png?raw=true",
-            "https://github.com/mattkrebs2000/ReactNativePractice/blob/master/images/mlk3.png?raw=true",
-            "https://github.com/mattkrebs2000/ReactNativePractice/blob/master/images/mlk4.png?raw=true"
-        ],
-        "name": "Martin Luther King, Jr."
-    }
+  {
+    "id": 1,
+    "image": [
+      "https://github.com/mattkrebs2000/ReactNativeMemoryGame/blob/master/images/abe1.png?raw=true",
+      "https://github.com/mattkrebs2000/ReactNativeMemoryGame/blob/master/images/abe2.png?raw=true",
+      "https://github.com/mattkrebs2000/ReactNativeMemoryGame/blob/master/images/abe3.png?raw=true",
+      "https://github.com/mattkrebs2000/ReactNativeMemoryGame/blob/master/images/abe4.png?raw=true"
+    ],
+    "name": "Abraham Lincoln"
+  },
+  {
+    "id": 2,
+    "image": [
+      "https://github.com/mattkrebs2000/ReactNativeMemoryGame/blob/master/images/ali1.png?raw=true",
+      "https://github.com/mattkrebs2000/ReactNativeMemoryGame/blob/master/images/ali2.png?raw=true",
+      "https://github.com/mattkrebs2000/ReactNativeMemoryGame/blob/master/images/ali3.png?raw=true",
+      "https://github.com/mattkrebs2000/ReactNativeMemoryGame/blob/master/images/ali4.png?raw=true"
+    ],
+    "name": "Muhammad Ali"
+  },
+  {
+    "id": 3,
+    "image": [
+      "https://github.com/mattkrebs2000/ReactNativeMemoryGame/blob/master/images/babe1.png?raw=true",
+      "https://github.com/mattkrebs2000/ReactNativeMemoryGame/blob/master/images/babe2.png?raw=true",
+      "https://github.com/mattkrebs2000/ReactNativeMemoryGame/blob/master/images/babe3.png?raw=true",
+      "https://github.com/mattkrebs2000/ReactNativeMemoryGame/blob/master/images/babe4.png?raw=true"
+    ],
+    "name": "Babe Ruth"
+  },
+  {
+    "id": 4,
+    "image": [
+      "https://github.com/mattkrebs2000/ReactNativeMemoryGame/blob/master/images/einstein1.png?raw=true",
+      "https://github.com/mattkrebs2000/ReactNativeMemoryGame/blob/master/images/einstein2.png?raw=true",
+      "https://github.com/mattkrebs2000/ReactNativeMemoryGame/blob/master/images/einstein3.png?raw=true",
+      "https://github.com/mattkrebs2000/ReactNativeMemoryGame/blob/master/images/einstein4.png?raw=true"
+    ],
+    "name": "Albert Einstein"
+  },
+  {
+    "id": 5,
+    "image": [
+      "https://github.com/mattkrebs2000/ReactNativeMemoryGame/blob/master/images/elvis1.png?raw=true",
+      "https://github.com/mattkrebs2000/ReactNativeMemoryGame/blob/master/images/elvis2.png?raw=true",
+      "https://github.com/mattkrebs2000/ReactNativeMemoryGame/blob/master/images/elvis3.png?raw=true",
+      "https://github.com/mattkrebs2000/ReactNativeMemoryGame/blob/master/images/elvis4.png?raw=true"
+    ],
+    "name": "Elvis Presley"
+  },
+  {
+    "id": 6,
+    "image": [
+      "https://github.com/mattkrebs2000/ReactNativeMemoryGame/blob/master/images/lennon2.png?raw=true",
+      "https://github.com/mattkrebs2000/ReactNativeMemoryGame/blob/master/images/lennon1.png?raw=true",
+      "https://github.com/mattkrebs2000/ReactNativeMemoryGame/blob/master/images/lennon3.png?raw=true",
+      "https://github.com/mattkrebs2000/ReactNativeMemoryGame/blob/master/images/lennon4.png?raw=true"
+    ],
+    "name": "John Lennon"
+  },
+  {
+    "id": 7,
+    "image": [
+      "https://github.com/mattkrebs2000/ReactNativeMemoryGame/blob/master/images/marilyn1.png?raw=true",
+      "https://github.com/mattkrebs2000/ReactNativeMemoryGame/blob/master/images/marilyn2.png?raw=true",
+      "https://github.com/mattkrebs2000/ReactNativeMemoryGame/blob/master/images/marilyn3.png?raw=true",
+      "https://github.com/mattkrebs2000/ReactNativeMemoryGame/blob/master/images/marilyn4.png?raw=true"
+    ],
+    "name": "Marilyn Monroe"
+  },
+  {
+    "id": 8,
+    "image": [
+      "https://github.com/mattkrebs2000/ReactNativeMemoryGame/blob/master/images/mlk1.png?raw=true",
+      "https://github.com/mattkrebs2000/ReactNativeMemoryGame/blob/master/images/mlk2.png?raw=true",
+      "https://github.com/mattkrebs2000/ReactNativeMemoryGame/blob/master/images/mlk3.png?raw=true",
+      "https://github.com/mattkrebs2000/ReactNativeMemoryGame/blob/master/images/mlk4.png?raw=true"
+    ],
+    "name": "Martin Luther King, Jr."
+  }
 ]
