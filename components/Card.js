@@ -3,14 +3,13 @@ import { StyleSheet, View, Image, TouchableOpacity } from "react-native";
 
 const Card = (jill) => (
   <View style={styles.card}>
-  <TouchableOpacity>
-    <Image
-      source={{ uri: jill.image }}
-      style={{ width: "95%", height: "97.5%" }}
-      id={jill.id}
-      name={jill.name}
-      onClick={() => jill.shuffleScoreCard(jill.id, jill.name)}
-    />
+    <TouchableOpacity onPress={() => jill.shuffleScoreCard(jill.id, jill.name)}>
+      <Image
+        source={{ uri: jill.image }}
+        style={{ width: "95%", height: "97.5%" }}
+        id={jill.id}
+        name={jill.name}
+      />
     </TouchableOpacity>
   </View>
 );

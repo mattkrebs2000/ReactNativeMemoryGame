@@ -47,6 +47,7 @@ class App extends Component {
         console.log("You Win");
         return;
       }
+      
       this.setState({
         Waces,
         clickedFacesIds,
@@ -60,9 +61,7 @@ class App extends Component {
         //reorganizes json file
         [Waces[i], Waces[j]] = [Waces[j], Waces[i]];
 
-        console.log(
-          "this is the changing order of faces right here" + Waces[i].image
-        );
+      
       }
     }
   };
@@ -76,6 +75,7 @@ class App extends Component {
           goal={8}
           status={this.state.status}
           direction={this.state.direction}
+
         />
         <Wrapper>
           {this.state.Waces.map((face) => (

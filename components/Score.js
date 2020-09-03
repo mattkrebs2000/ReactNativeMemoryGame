@@ -5,7 +5,6 @@ const Score = (props) => (
   <View>
     <View style={styles.score2}>
       <Text>Your Score: {props.total}</Text>
-
       <Text style={styles.score2}>{props.status}</Text>
       <Text style={styles.score2}>{props.direction}</Text>
     </View>
