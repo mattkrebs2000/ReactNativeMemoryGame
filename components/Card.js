@@ -1,15 +1,17 @@
 import React from "react";
-import { StyleSheet, View, Image } from "react-native";
+import { StyleSheet, View, Image, TouchableOpacity } from "react-native";
 
 const Card = (jill) => (
   <View style={styles.card}>
+  <TouchableOpacity>
     <Image
       source={{ uri: jill.image }}
-      style={{ width: "95%", height: "95%" }}
+      style={{ width: "95%", height: "97.5%" }}
       id={jill.id}
       name={jill.name}
       onClick={() => jill.shuffleScoreCard(jill.id, jill.name)}
     />
+    </TouchableOpacity>
   </View>
 );
 
@@ -21,7 +23,7 @@ const styles = StyleSheet.create({
     borderRadius: 10,
     margin: 2,
     minWidth: 140,
-    minHeight: 140,
+    height: 150,
     resizeMode: "contain",
   },
 });

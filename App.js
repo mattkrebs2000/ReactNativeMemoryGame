@@ -6,6 +6,7 @@ import Score from "./components/Score";
 import Header from "./components/Header";
 import Waces from "./cards.json";
 
+
 class App extends Component {
   state = {
     Waces,
