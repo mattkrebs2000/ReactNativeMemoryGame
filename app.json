@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "mynewproject",
-    "slug": "mynewproject",
-    "version": "1.0.0",
+    "name": "Memory Game",
+    "slug": "Memory Game",
+    "version": "1.1.0",
     "icon": "./assets/icon.png",
     "splash": {
       "image": "./assets/splash.png",
