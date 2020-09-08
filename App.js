@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { StyleSheet, View } from "react-native";
+import { StyleSheet, View, ScrollView } from "react-native";
 import Card from "./components/Card";
 import Wrapper from "./components/Wrapper";
 import Score from "./components/Score";
@@ -68,6 +68,7 @@ class App extends Component {
 
   render() {
     return (
+      <ScrollView>
       <View style={styles.container}>
         <Header />
         <Score
@@ -75,20 +76,22 @@ class App extends Component {
           goal={8}
           status={this.state.status}
           direction={this.state.direction}
-
         />
-        <Wrapper>
-          {this.state.Waces.map((face) => (
-            <Card
-              shuffleScoreCard={this.shuffleScoreCard}
-              id={face.id}
-              key={face.id}
-              image={face.image[this.state.imagenumber]}
-              name={face.name}
-            />
-          ))}
-        </Wrapper>
+       
+          <Wrapper>
+            {this.state.Waces.map((face) => (
+              <Card
+                shuffleScoreCard={this.shuffleScoreCard}
+                id={face.id}
+                key={face.id}
+                image={face.image[this.state.imagenumber]}
+                name={face.name}
+              />
+            ))}
+          </Wrapper>
+       
       </View>
+      </ScrollView>
     );
   }
 }

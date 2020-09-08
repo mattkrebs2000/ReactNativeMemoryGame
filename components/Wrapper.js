@@ -7,6 +7,7 @@ export default Wrapper;
 
 const styles = StyleSheet.create({
   wrapper: {
+   
     justifyContent: "center",
     flex: 1,
     flexDirection: "row",
@@ -14,6 +15,7 @@ const styles = StyleSheet.create({
     overflow: "scroll",
     width: "100%",
     maxWidth: 700,
+    marginBottom:"-20%",
    
   },
 });
