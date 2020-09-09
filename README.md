@@ -13,7 +13,7 @@ This is a React Native App which challenges users to not click on a famous perso
 
 ## Deployment 
 
-This application can be found [here.](https://play.google.com/store/apps/details?id=com.memorygame1234.game/)
+This application can be found [here.](https://play.google.com/store/apps/details?id=com.memorygame1234.game)
 
 ## User Experience
 
