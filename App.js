@@ -19,6 +19,7 @@ class App extends Component {
   };
 
   shuffleScoreCard = (id, name) => {
+    // debugger
     this.setState({
       imagenumber: this.state.imagenumber > 2 ? 0 : this.state.imagenumber + 1,
       status: " " + name,
@@ -67,18 +68,20 @@ class App extends Component {
   };
 
   render() {
+    console.log("WHTAT")
     return (
       <ScrollView>
-      <View style={styles.container}>
-        <Header />
-        <Score
-          total={this.state.score}
-          goal={8}
-          status={this.state.status}
-          direction={this.state.direction}
-        />
-       
+        <View style={styles.container}>
+          <Header />
+          <Score
+            total={this.state.score}
+            goal={8}
+            status={this.state.status}
+            direction={this.state.direction}
+          />
+
           <Wrapper>
+            
             {this.state.Waces.map((face) => (
               <Card
                 shuffleScoreCard={this.shuffleScoreCard}
@@ -89,8 +92,7 @@ class App extends Component {
               />
             ))}
           </Wrapper>
-       
-      </View>
+        </View>
       </ScrollView>
     );
   }
@@ -98,11 +100,11 @@ class App extends Component {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    backgroundColor: "#fff",
+
     alignItems: "center",
     justifyContent: "center",
   },
+ 
 });
 
 export default App;

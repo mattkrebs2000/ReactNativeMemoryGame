@@ -1,5 +1,6 @@
 import React from "react";
 import { StyleSheet, View, Image, TouchableOpacity } from "react-native";
+"react-native";
 
 const Card = (jill) => (
  
@@ -9,7 +10,7 @@ const Card = (jill) => (
       >
         <Image
           source={{ uri: jill.image }}
-          style={{ width: "95%", height: "97.5%" }}
+          style={{ width: "95%", height:"97.5%" }}
           id={jill.id}
           name={jill.name}
         />
@@ -21,11 +22,12 @@ export default Card;
 
 const styles = StyleSheet.create({
   card: {
+    
     backgroundColor: "#8cbeff",
     borderRadius: 10,
     margin: 2,
     minWidth: 140,
-    height: 120,
-    resizeMode: "contain",
+    height: "22%",
+    resizeMode:"contain"
   },
 });

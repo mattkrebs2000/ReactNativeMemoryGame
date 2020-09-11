@@ -1,7 +1,11 @@
 import React from "react";
-import { StyleSheet, View } from "react-native";
+import { StyleSheet, View, } from "react-native";
+
 
 const Wrapper = (props) => <View style={styles.wrapper}>{props.children}</View>;
+
+
+
 
 export default Wrapper;
 
@@ -15,7 +19,10 @@ const styles = StyleSheet.create({
     overflow: "scroll",
     width: "100%",
     maxWidth: 700,
+    height: 500,
     marginBottom:"-20%",
+    resizeMode: "stretch",
+    backgroundColor: "orange"
    
   },
 });
