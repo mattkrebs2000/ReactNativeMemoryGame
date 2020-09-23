@@ -16,6 +16,6 @@ const styles = StyleSheet.create({
     maxWidth: 700,
 
     resizeMode: "stretch",
-    backgroundColor: "orange",
+  
   },
 });
