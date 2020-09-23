@@ -19,20 +19,15 @@ export default Header;
 const styles = StyleSheet.create({
   container: {
     width: "100%",
-    height: 90,
+
     backgroundColor: "#8cbeff",
     alignItems: "center",
-    justifyContent:"center",
-    
-   
-  
+    justifyContent: "center",
   },
   text: {
-    marginTop: -20,
     fontSize: 40,
   },
   text2: {
     fontSize: 14,
-  marginBottom:-30,
   },
 });

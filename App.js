@@ -1,11 +1,10 @@
 import React, { Component } from "react";
-import { StyleSheet, View, ScrollView } from "react-native";
+import { StyleSheet, View, SafeAreaView } from "react-native";
 import Card from "./components/Card";
 import Wrapper from "./components/Wrapper";
 import Score from "./components/Score";
 import Header from "./components/Header";
 import Waces from "./cards.json";
-
 
 class App extends Component {
   state = {
@@ -17,6 +16,15 @@ class App extends Component {
     status: " ",
     direction: " ",
   };
+
+  // tallerscreen = () => {
+
+  // if (Dimensions.get("window").height > Dimensions.get("window").width) {
+  //  return true;
+  // } else {
+  //   return false;
+  // }
+  // }
 
   shuffleScoreCard = (id, name) => {
     // debugger
@@ -48,7 +56,7 @@ class App extends Component {
         console.log("You Win");
         return;
       }
-      
+
       this.setState({
         Waces,
         clickedFacesIds,
@@ -61,27 +69,25 @@ class App extends Component {
 
         //reorganizes json file
         [Waces[i], Waces[j]] = [Waces[j], Waces[i]];
-
-      
       }
     }
   };
 
   render() {
-    console.log("WHTAT")
+    console.log("WHTAT");
     return (
-      <ScrollView>
+      <SafeAreaView>
         <View style={styles.container}>
-          <Header />
+          <Header style={styles.header} />
           <Score
             total={this.state.score}
             goal={8}
             status={this.state.status}
             direction={this.state.direction}
+            style={styles.score}
           />
 
-          <Wrapper>
-            
+          <Wrapper style={styles.wrapper}>
             {this.state.Waces.map((face) => (
               <Card
                 shuffleScoreCard={this.shuffleScoreCard}
@@ -89,22 +95,32 @@ class App extends Component {
                 key={face.id}
                 image={face.image[this.state.imagenumber]}
                 name={face.name}
+                // screen={this.tallerscreen}
               />
             ))}
           </Wrapper>
         </View>
-      </ScrollView>
+      </SafeAreaView>
     );
   }
 }
 
 const styles = StyleSheet.create({
   container: {
-
     alignItems: "center",
     justifyContent: "center",
+    flexDirection: "column",
+    height: "100%",
   },
- 
+  wrapper: {
+    flex: 50,
+  },
+  score: {
+    flex: 20,
+  },
+  header: {
+    flex: 20,
+  },
 });
 
 export default App;
