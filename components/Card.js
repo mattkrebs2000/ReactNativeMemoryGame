@@ -1,9 +1,6 @@
 import React from "react";
 import { Dimensions, StyleSheet, View, Image, TouchableOpacity } from "react-native";
 
-
-
-
 const Card = (jill) => (
   <View
     style={

@@ -15,16 +15,17 @@ class App extends Component {
     imagenumber: 0,
     status: " ",
     direction: " ",
+    width:null,
+    height:null, 
   };
 
-  // tallerscreen = () => {
-
-  // if (Dimensions.get("window").height > Dimensions.get("window").width) {
-  //  return true;
-  // } else {
-  //   return false;
-  // }
-  // }
+changing(e) {
+  console.log("cmon");
+this.setState({
+  width: Dimensions.get("window").width,
+  height: Dimensions.get("window").height,
+});
+}
 
   shuffleScoreCard = (id, name) => {
     // debugger
@@ -76,7 +77,7 @@ class App extends Component {
   render() {
     console.log("WHTAT");
     return (
-      <SafeAreaView>
+      <SafeAreaView onLayout = {this.changing.bind(this)}>
         <View style={styles.container}>
           <Header style={styles.header} />
           <Score
