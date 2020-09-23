@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { StyleSheet, View, SafeAreaView } from "react-native";
+import { Dimensions, StyleSheet, View, SafeAreaView } from "react-native";
 import Card from "./components/Card";
 import Wrapper from "./components/Wrapper";
 import Score from "./components/Score";
@@ -95,7 +95,7 @@ class App extends Component {
                 key={face.id}
                 image={face.image[this.state.imagenumber]}
                 name={face.name}
-                // screen={this.tallerscreen}
+                // orientation = {this.tallerscreen}
               />
             ))}
           </Wrapper>

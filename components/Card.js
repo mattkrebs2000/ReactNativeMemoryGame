@@ -1,8 +1,17 @@
 import React from "react";
-import { StyleSheet, View, Image, TouchableOpacity } from "react-native";
+import { Dimensions, StyleSheet, View, Image, TouchableOpacity } from "react-native";
+
+
+
 
 const Card = (jill) => (
-  <View style={styles.card2}>
+  <View
+    style={
+      Dimensions.get("window").height > Dimensions.get("window").width
+        ? styles.card2
+        : styles.card
+    }
+  >
     <TouchableOpacity onPress={() => jill.shuffleScoreCard(jill.id, jill.name)}>
       <Image
         source={{ uri: jill.image }}
@@ -13,6 +22,8 @@ const Card = (jill) => (
     </TouchableOpacity>
   </View>
 );
+
+
 
 export default Card;
 
